@@ -8,6 +8,6 @@ public class IntroManager : MonoBehaviour
 {
     public void GameStart()
     {
-        SceneManager.LoadScene("AngryBird");
+        SceneManager.LoadScene("FuriousBirds");
     }
 }

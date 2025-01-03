@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     public void ResetStage()
     {
-        SceneManager.LoadScene("AngryBird");
+        SceneManager.LoadScene("FuriousBirds");
     }
 
     public void SoundVolume()

@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: e9f137a9112f609419ab8d1b1e2edbb2
   - enabled: 1
-    path: Assets/Scenes/AngryBird.unity
+    path: Assets/Scenes/FuriousBirds.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects: {}

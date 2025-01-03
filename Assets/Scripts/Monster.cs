@@ -39,7 +39,7 @@ public class Monster : MonoBehaviour
         else if (hp <= 0)
         {
             audioSource.PlayOneShot(destroyAudio);
-            Destroy(gameObject);
+            Destroy(gameObject, destroyAudio.length); // audio가 재생되기도 전에 파괴되는 현상 방지
             State = null; // 몬스터가 삭제되고 나서 불러오면 에러가 발생하니 이를 미연에 방지
             var effectObject = Instantiate(destroyEffect, transform.position, quaternion.identity);
             effectObject.Play();
